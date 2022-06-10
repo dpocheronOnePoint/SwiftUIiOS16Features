@@ -19,6 +19,7 @@
 		D3B8A4442853293F00C5A88C /* GaugesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A4432853293F00C5A88C /* GaugesView.swift */; };
 		D3B8A44728532DD000C5A88C /* CustomGridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A44628532DD000C5A88C /* CustomGridLayoutView.swift */; };
 		D3B8A44A2853345D00C5A88C /* MultiDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A4492853345D00C5A88C /* MultiDatePickerView.swift */; };
+		D3B8A44D2853358600C5A88C /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A44C2853358600C5A88C /* ViewThatFitsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D3B8A4432853293F00C5A88C /* GaugesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugesView.swift; sourceTree = "<group>"; };
 		D3B8A44628532DD000C5A88C /* CustomGridLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridLayoutView.swift; sourceTree = "<group>"; };
 		D3B8A4492853345D00C5A88C /* MultiDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerView.swift; sourceTree = "<group>"; };
+		D3B8A44C2853358600C5A88C /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		D3B8A42528531F6500C5A88C /* SwiftUIiOS16Feature */ = {
 			isa = PBXGroup;
 			children = (
+				D3B8A44B2853356E00C5A88C /* ViewThatFits */,
 				D3B8A4482853343400C5A88C /* MultiDataPicker */,
 				D3B8A44528532DC000C5A88C /* Grids */,
 				D3B8A4422853292900C5A88C /* Gauges */,
@@ -147,6 +150,14 @@
 			path = MultiDataPicker;
 			sourceTree = "<group>";
 		};
+		D3B8A44B2853356E00C5A88C /* ViewThatFits */ = {
+			isa = PBXGroup;
+			children = (
+				D3B8A44C2853358600C5A88C /* ViewThatFitsView.swift */,
+			);
+			path = ViewThatFits;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,6 +230,7 @@
 			files = (
 				D3B8A4412853279400C5A88C /* ShareLinksView.swift in Sources */,
 				D3B8A43B285323A000C5A88C /* SwiftIconWithGradientAndShadow.swift in Sources */,
+				D3B8A44D2853358600C5A88C /* ViewThatFitsView.swift in Sources */,
 				D3B8A44A2853345D00C5A88C /* MultiDatePickerView.swift in Sources */,
 				D3B8A4442853293F00C5A88C /* GaugesView.swift in Sources */,
 				D3B8A4382853203D00C5A88C /* BarChatView.swift in Sources */,
