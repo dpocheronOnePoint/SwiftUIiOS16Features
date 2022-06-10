@@ -16,6 +16,7 @@
 		D3B8A43B285323A000C5A88C /* SwiftIconWithGradientAndShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A43A285323A000C5A88C /* SwiftIconWithGradientAndShadow.swift */; };
 		D3B8A43E2853253400C5A88C /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A43D2853253400C5A88C /* BottomSheetView.swift */; };
 		D3B8A4412853279400C5A88C /* ShareLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A4402853279400C5A88C /* ShareLinksView.swift */; };
+		D3B8A4442853293F00C5A88C /* GaugesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A4432853293F00C5A88C /* GaugesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D3B8A43A285323A000C5A88C /* SwiftIconWithGradientAndShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIconWithGradientAndShadow.swift; sourceTree = "<group>"; };
 		D3B8A43D2853253400C5A88C /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		D3B8A4402853279400C5A88C /* ShareLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinksView.swift; sourceTree = "<group>"; };
+		D3B8A4432853293F00C5A88C /* GaugesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		D3B8A42528531F6500C5A88C /* SwiftUIiOS16Feature */ = {
 			isa = PBXGroup;
 			children = (
+				D3B8A4422853292900C5A88C /* Gauges */,
 				D3B8A43F2853278200C5A88C /* ShareLinks */,
 				D3B8A43C2853251F00C5A88C /* BottomSheet */,
 				D3B8A4392853237600C5A88C /* GradientsAndShadows */,
@@ -112,6 +115,14 @@
 				D3B8A4402853279400C5A88C /* ShareLinksView.swift */,
 			);
 			path = ShareLinks;
+			sourceTree = "<group>";
+		};
+		D3B8A4422853292900C5A88C /* Gauges */ = {
+			isa = PBXGroup;
+			children = (
+				D3B8A4432853293F00C5A88C /* GaugesView.swift */,
+			);
+			path = Gauges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 			files = (
 				D3B8A4412853279400C5A88C /* ShareLinksView.swift in Sources */,
 				D3B8A43B285323A000C5A88C /* SwiftIconWithGradientAndShadow.swift in Sources */,
+				D3B8A4442853293F00C5A88C /* GaugesView.swift in Sources */,
 				D3B8A4382853203D00C5A88C /* BarChatView.swift in Sources */,
 				D3B8A42928531F6500C5A88C /* ContentView.swift in Sources */,
 				D3B8A42728531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift in Sources */,
