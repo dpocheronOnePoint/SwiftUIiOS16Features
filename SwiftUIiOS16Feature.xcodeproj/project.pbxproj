@@ -11,6 +11,8 @@
 		D3B8A42928531F6500C5A88C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A42828531F6500C5A88C /* ContentView.swift */; };
 		D3B8A42B28531F6500C5A88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B8A42A28531F6500C5A88C /* Assets.xcassets */; };
 		D3B8A42E28531F6500C5A88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B8A42D28531F6500C5A88C /* Preview Assets.xcassets */; };
+		D3B8A43628531FCD00C5A88C /* BarValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A43528531FCD00C5A88C /* BarValues.swift */; };
+		D3B8A4382853203D00C5A88C /* BarChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A4372853203D00C5A88C /* BarChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D3B8A42828531F6500C5A88C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3B8A42A28531F6500C5A88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3B8A42D28531F6500C5A88C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3B8A43528531FCD00C5A88C /* BarValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarValues.swift; sourceTree = "<group>"; };
+		D3B8A4372853203D00C5A88C /* BarChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		D3B8A42528531F6500C5A88C /* SwiftUIiOS16Feature */ = {
 			isa = PBXGroup;
 			children = (
+				D3B8A43428531FAD00C5A88C /* SwiftUICharts */,
 				D3B8A42628531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift */,
 				D3B8A42828531F6500C5A88C /* ContentView.swift */,
 				D3B8A42A28531F6500C5A88C /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				D3B8A42D28531F6500C5A88C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3B8A43428531FAD00C5A88C /* SwiftUICharts */ = {
+			isa = PBXGroup;
+			children = (
+				D3B8A43528531FCD00C5A88C /* BarValues.swift */,
+				D3B8A4372853203D00C5A88C /* BarChatView.swift */,
+			);
+			path = SwiftUICharts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B8A4382853203D00C5A88C /* BarChatView.swift in Sources */,
 				D3B8A42928531F6500C5A88C /* ContentView.swift in Sources */,
 				D3B8A42728531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift in Sources */,
+				D3B8A43628531FCD00C5A88C /* BarValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
