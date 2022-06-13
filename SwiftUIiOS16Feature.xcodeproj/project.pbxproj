@@ -22,6 +22,8 @@
 		D3B8A44D2853358600C5A88C /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A44C2853358600C5A88C /* ViewThatFitsView.swift */; };
 		D3B8A4502853379700C5A88C /* SwitchLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A44F2853379700C5A88C /* SwitchLayoutView.swift */; };
 		D3C762E628570F3E0064F02A /* VariableSFSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C762E528570F3E0064F02A /* VariableSFSymbolsView.swift */; };
+		D3C762E92857163C0064F02A /* RefreshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C762E82857163C0064F02A /* RefreshApp.swift */; };
+		D3C762EB2857174F0064F02A /* BackgroundTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C762EA2857174F0064F02A /* BackgroundTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		D3B8A44C2853358600C5A88C /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
 		D3B8A44F2853379700C5A88C /* SwitchLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchLayoutView.swift; sourceTree = "<group>"; };
 		D3C762E528570F3E0064F02A /* VariableSFSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableSFSymbolsView.swift; sourceTree = "<group>"; };
+		D3C762E82857163C0064F02A /* RefreshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshApp.swift; sourceTree = "<group>"; };
+		D3C762EA2857174F0064F02A /* BackgroundTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		D3B8A42528531F6500C5A88C /* SwiftUIiOS16Feature */ = {
 			isa = PBXGroup;
 			children = (
+				D3C762E7285716190064F02A /* BackgroundTask */,
 				D3C762E428570F250064F02A /* VariableSFSymbols */,
 				D3B8A44E2853377C00C5A88C /* AnyLayout */,
 				D3B8A44B2853356E00C5A88C /* ViewThatFits */,
@@ -180,6 +185,15 @@
 			path = VariableSFSymbols;
 			sourceTree = "<group>";
 		};
+		D3C762E7285716190064F02A /* BackgroundTask */ = {
+			isa = PBXGroup;
+			children = (
+				D3C762E82857163C0064F02A /* RefreshApp.swift */,
+				D3C762EA2857174F0064F02A /* BackgroundTaskView.swift */,
+			);
+			path = BackgroundTask;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3B8A4502853379700C5A88C /* SwitchLayoutView.swift in Sources */,
+				D3C762EB2857174F0064F02A /* BackgroundTaskView.swift in Sources */,
 				D3B8A4412853279400C5A88C /* ShareLinksView.swift in Sources */,
 				D3B8A43B285323A000C5A88C /* SwiftIconWithGradientAndShadow.swift in Sources */,
 				D3C762E628570F3E0064F02A /* VariableSFSymbolsView.swift in Sources */,
@@ -261,6 +276,7 @@
 				D3B8A44728532DD000C5A88C /* CustomGridLayoutView.swift in Sources */,
 				D3B8A42928531F6500C5A88C /* ContentView.swift in Sources */,
 				D3B8A42728531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift in Sources */,
+				D3C762E92857163C0064F02A /* RefreshApp.swift in Sources */,
 				D3B8A43628531FCD00C5A88C /* BarValues.swift in Sources */,
 				D3B8A43E2853253400C5A88C /* BottomSheetView.swift in Sources */,
 			);

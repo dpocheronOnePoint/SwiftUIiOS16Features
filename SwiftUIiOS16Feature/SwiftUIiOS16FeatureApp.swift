@@ -13,5 +13,9 @@ struct SwiftUIiOS16FeatureApp: App {
         WindowGroup {
             ContentView()
         }
+        .backgroundTask(.appRefresh("StormyNoon")) {
+            scheduleAppRefresh()
+             
+        }
     }
 }
