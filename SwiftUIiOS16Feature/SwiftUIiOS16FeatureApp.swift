@@ -11,11 +11,16 @@ import SwiftUI
 struct SwiftUIiOS16FeatureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DeviceOrientationAnyLayoutView()
         }
         .backgroundTask(.appRefresh("StormyNoon")) {
             scheduleAppRefresh()
-             
+            if await isStormy() {
+                await notifyForPhoto()
+            }
+        }
+        .backgroundTask(.urlSession("isStormy")) {
+            
         }
     }
 }

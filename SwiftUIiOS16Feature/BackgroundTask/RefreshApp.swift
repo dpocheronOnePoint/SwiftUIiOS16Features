@@ -30,7 +30,12 @@ func isStormy() async -> Bool {
     
     let request = URLRequest(url: URL(string: "WEATHER_URL")!)
     
-    let response = try? await session.data(for: request)
+    let response = await withTaskCancellationHandler {
+        try? await session.data(for: request)
+    } onCancel: {
+        let task = session.downloadTask(with: request)
+        task.resume()
+    }
     
     if let data = response {
         return true
