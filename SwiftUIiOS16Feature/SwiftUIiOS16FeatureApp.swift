@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIiOS16FeatureApp: App {
     var body: some Scene {
         WindowGroup {
-            DeviceOrientationAnyLayoutView()
+            TogglingArrayView()
         }
         .backgroundTask(.appRefresh("StormyNoon")) {
             scheduleAppRefresh()

@@ -17,6 +17,13 @@
 		D3727920285B617200161BE3 /* TapGestureLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372791F285B617200161BE3 /* TapGestureLocationView.swift */; };
 		D3727923285B643200161BE3 /* SearchableScopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3727922285B643200161BE3 /* SearchableScopeView.swift */; };
 		D3727926285C6BCB00161BE3 /* DeviceOrientationAnyLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3727925285C6BCB00161BE3 /* DeviceOrientationAnyLayoutView.swift */; };
+		D3727928285C6CA700161BE3 /* DynamicTypeSizeAnyLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3727927285C6CA700161BE3 /* DynamicTypeSizeAnyLayoutView.swift */; };
+		D372792B285C6E2D00161BE3 /* RequestingAppReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372792A285C6E2D00161BE3 /* RequestingAppReviewView.swift */; };
+		D372792E285C6EFB00161BE3 /* DismissKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372792D285C6EFB00161BE3 /* DismissKeyBoardView.swift */; };
+		D3727933285C723A00161BE3 /* TextAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3727932285C723A00161BE3 /* TextAnimationView.swift */; };
+		D3727936285C72BD00161BE3 /* AutomaticExpandTexfiledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3727935285C72BD00161BE3 /* AutomaticExpandTexfiledView.swift */; };
+		D3727939285C766000161BE3 /* BoldAndItalicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3727938285C766000161BE3 /* BoldAndItalicAnimationView.swift */; };
+		D372793C285C777000161BE3 /* TogglingArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372793B285C777000161BE3 /* TogglingArrayView.swift */; };
 		D3B8A42728531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A42628531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift */; };
 		D3B8A42B28531F6500C5A88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B8A42A28531F6500C5A88C /* Assets.xcassets */; };
 		D3B8A42E28531F6500C5A88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B8A42D28531F6500C5A88C /* Preview Assets.xcassets */; };
@@ -47,6 +54,13 @@
 		D3727922285B643200161BE3 /* SearchableScopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableScopeView.swift; sourceTree = "<group>"; };
 		D3727924285C69BF00161BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D3727925285C6BCB00161BE3 /* DeviceOrientationAnyLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOrientationAnyLayoutView.swift; sourceTree = "<group>"; };
+		D3727927285C6CA700161BE3 /* DynamicTypeSizeAnyLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeSizeAnyLayoutView.swift; sourceTree = "<group>"; };
+		D372792A285C6E2D00161BE3 /* RequestingAppReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestingAppReviewView.swift; sourceTree = "<group>"; };
+		D372792D285C6EFB00161BE3 /* DismissKeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyBoardView.swift; sourceTree = "<group>"; };
+		D3727932285C723A00161BE3 /* TextAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimationView.swift; sourceTree = "<group>"; };
+		D3727935285C72BD00161BE3 /* AutomaticExpandTexfiledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticExpandTexfiledView.swift; sourceTree = "<group>"; };
+		D3727938285C766000161BE3 /* BoldAndItalicAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldAndItalicAnimationView.swift; sourceTree = "<group>"; };
+		D372793B285C777000161BE3 /* TogglingArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglingArrayView.swift; sourceTree = "<group>"; };
 		D3B8A42328531F6500C5A88C /* SwiftUIiOS16Feature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIiOS16Feature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B8A42628531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIiOS16FeatureApp.swift; sourceTree = "<group>"; };
 		D3B8A42A28531F6500C5A88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +118,54 @@
 			path = SearchableScope;
 			sourceTree = "<group>";
 		};
+		D3727929285C6D4700161BE3 /* RequestingAppReview */ = {
+			isa = PBXGroup;
+			children = (
+				D372792A285C6E2D00161BE3 /* RequestingAppReviewView.swift */,
+			);
+			name = RequestingAppReview;
+			sourceTree = "<group>";
+		};
+		D372792C285C6EE800161BE3 /* DismissKeyBoardOnScroll */ = {
+			isa = PBXGroup;
+			children = (
+				D372792D285C6EFB00161BE3 /* DismissKeyBoardView.swift */,
+			);
+			path = DismissKeyBoardOnScroll;
+			sourceTree = "<group>";
+		};
+		D372792F285C712700161BE3 /* TextAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D3727932285C723A00161BE3 /* TextAnimationView.swift */,
+			);
+			path = TextAnimation;
+			sourceTree = "<group>";
+		};
+		D3727934285C72A900161BE3 /* AutomaticExpandTextfiled */ = {
+			isa = PBXGroup;
+			children = (
+				D3727935285C72BD00161BE3 /* AutomaticExpandTexfiledView.swift */,
+			);
+			path = AutomaticExpandTextfiled;
+			sourceTree = "<group>";
+		};
+		D3727937285C763F00161BE3 /* BoldItalicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D3727938285C766000161BE3 /* BoldAndItalicAnimationView.swift */,
+			);
+			path = BoldItalicAnimation;
+			sourceTree = "<group>";
+		};
+		D372793A285C775B00161BE3 /* TogglingArray */ = {
+			isa = PBXGroup;
+			children = (
+				D372793B285C777000161BE3 /* TogglingArrayView.swift */,
+			);
+			path = TogglingArray;
+			sourceTree = "<group>";
+		};
 		D3B8A41A28531F6400C5A88C = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +185,12 @@
 		D3B8A42528531F6500C5A88C /* SwiftUIiOS16Feature */ = {
 			isa = PBXGroup;
 			children = (
-				D3727924285C69BF00161BE3 /* Info.plist */,
+				D372793A285C775B00161BE3 /* TogglingArray */,
+				D3727937285C763F00161BE3 /* BoldItalicAnimation */,
+				D3727934285C72A900161BE3 /* AutomaticExpandTextfiled */,
+				D372792F285C712700161BE3 /* TextAnimation */,
+				D372792C285C6EE800161BE3 /* DismissKeyBoardOnScroll */,
+				D3727929285C6D4700161BE3 /* RequestingAppReview */,
 				D3727921285B640E00161BE3 /* SearchableScope */,
 				D372791E285B615A00161BE3 /* TapGestureLocation */,
 				D372790D285B21AA00161BE3 /* NavigationStack */,
@@ -140,6 +207,7 @@
 				D3B8A43428531FAD00C5A88C /* SwiftUICharts */,
 				D3B8A42628531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift */,
 				D3B8A42A28531F6500C5A88C /* Assets.xcassets */,
+				D3727924285C69BF00161BE3 /* Info.plist */,
 				D3B8A42C28531F6500C5A88C /* Preview Content */,
 			);
 			path = SwiftUIiOS16Feature;
@@ -226,6 +294,7 @@
 			children = (
 				D3B8A44F2853379700C5A88C /* SwitchLayoutView.swift */,
 				D3727925285C6BCB00161BE3 /* DeviceOrientationAnyLayoutView.swift */,
+				D3727927285C6CA700161BE3 /* DynamicTypeSizeAnyLayoutView.swift */,
 			);
 			path = AnyLayout;
 			sourceTree = "<group>";
@@ -318,27 +387,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3B8A4502853379700C5A88C /* SwitchLayoutView.swift in Sources */,
+				D372792B285C6E2D00161BE3 /* RequestingAppReviewView.swift in Sources */,
 				D3727919285B5C6600161BE3 /* SecondGridLayoutView.swift in Sources */,
 				D3C762EB2857174F0064F02A /* BackgroundTaskView.swift in Sources */,
 				D3B8A4412853279400C5A88C /* ShareLinksView.swift in Sources */,
 				D3727926285C6BCB00161BE3 /* DeviceOrientationAnyLayoutView.swift in Sources */,
 				D3727915285B26ED00161BE3 /* NavigationSplitViewExample.swift in Sources */,
+				D3727928285C6CA700161BE3 /* DynamicTypeSizeAnyLayoutView.swift in Sources */,
 				D3B8A43B285323A000C5A88C /* SwiftIconWithGradientAndShadow.swift in Sources */,
 				D372791B285B5E5800161BE3 /* ThirdGridLayoutView.swift in Sources */,
 				D3C762E628570F3E0064F02A /* VariableSFSymbolsView.swift in Sources */,
+				D3727939285C766000161BE3 /* BoldAndItalicAnimationView.swift in Sources */,
 				D372790F285B21BC00161BE3 /* NavigationStackView.swift in Sources */,
+				D372792E285C6EFB00161BE3 /* DismissKeyBoardView.swift in Sources */,
 				D3B8A44D2853358600C5A88C /* ViewThatFitsView.swift in Sources */,
 				D3727911285B23A700161BE3 /* NavigationStackViewPresentedNumber.swift in Sources */,
 				D3B8A44A2853345D00C5A88C /* MultiDatePickerView.swift in Sources */,
 				D3B8A4442853293F00C5A88C /* GaugesView.swift in Sources */,
 				D3727920285B617200161BE3 /* TapGestureLocationView.swift in Sources */,
+				D3727933285C723A00161BE3 /* TextAnimationView.swift in Sources */,
 				D3B8A4382853203D00C5A88C /* BarChatView.swift in Sources */,
 				D3727913285B245400161BE3 /* MutipleNavigationDestination.swift in Sources */,
 				D3B8A44728532DD000C5A88C /* CustomGridLayoutView.swift in Sources */,
 				D3B8A42728531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift in Sources */,
 				D3727923285B643200161BE3 /* SearchableScopeView.swift in Sources */,
+				D3727936285C72BD00161BE3 /* AutomaticExpandTexfiledView.swift in Sources */,
 				D3C762E92857163C0064F02A /* RefreshApp.swift in Sources */,
 				D372791D285B607600161BE3 /* ForthGridLayoutView.swift in Sources */,
+				D372793C285C777000161BE3 /* TogglingArrayView.swift in Sources */,
 				D3B8A43628531FCD00C5A88C /* BarValues.swift in Sources */,
 				D3B8A43E2853253400C5A88C /* BottomSheetView.swift in Sources */,
 			);
