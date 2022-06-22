@@ -24,6 +24,11 @@
 		D3727936285C72BD00161BE3 /* AutomaticExpandTexfiledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3727935285C72BD00161BE3 /* AutomaticExpandTexfiledView.swift */; };
 		D3727939285C766000161BE3 /* BoldAndItalicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3727938285C766000161BE3 /* BoldAndItalicAnimationView.swift */; };
 		D372793C285C777000161BE3 /* TogglingArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372793B285C777000161BE3 /* TogglingArrayView.swift */; };
+		D39EA42528631CDE00899268 /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EA42428631CDE00899268 /* MovieListScreen.swift */; };
+		D39EA42828631D0A00899268 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EA42728631D0A00899268 /* Movie.swift */; };
+		D39EA42A28631D1B00899268 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EA42928631D1B00899268 /* Review.swift */; };
+		D39EA42C28631D3B00899268 /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EA42B28631D3B00899268 /* MovieDetailScreen.swift */; };
+		D39EA42E28631D5900899268 /* ReviewListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EA42D28631D5900899268 /* ReviewListScreen.swift */; };
 		D3B8A42728531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A42628531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift */; };
 		D3B8A42B28531F6500C5A88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B8A42A28531F6500C5A88C /* Assets.xcassets */; };
 		D3B8A42E28531F6500C5A88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B8A42D28531F6500C5A88C /* Preview Assets.xcassets */; };
@@ -61,6 +66,11 @@
 		D3727935285C72BD00161BE3 /* AutomaticExpandTexfiledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticExpandTexfiledView.swift; sourceTree = "<group>"; };
 		D3727938285C766000161BE3 /* BoldAndItalicAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldAndItalicAnimationView.swift; sourceTree = "<group>"; };
 		D372793B285C777000161BE3 /* TogglingArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglingArrayView.swift; sourceTree = "<group>"; };
+		D39EA42428631CDE00899268 /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
+		D39EA42728631D0A00899268 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D39EA42928631D1B00899268 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		D39EA42B28631D3B00899268 /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
+		D39EA42D28631D5900899268 /* ReviewListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListScreen.swift; sourceTree = "<group>"; };
 		D3B8A42328531F6500C5A88C /* SwiftUIiOS16Feature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIiOS16Feature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B8A42628531F6500C5A88C /* SwiftUIiOS16FeatureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIiOS16FeatureApp.swift; sourceTree = "<group>"; };
 		D3B8A42A28531F6500C5A88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +104,7 @@
 		D372790D285B21AA00161BE3 /* NavigationStack */ = {
 			isa = PBXGroup;
 			children = (
+				D39EA4212863162000899268 /* GlobalNavigationWithRoute */,
 				D372790E285B21BC00161BE3 /* NavigationStackView.swift */,
 				D3727910285B23A700161BE3 /* NavigationStackViewPresentedNumber.swift */,
 				D3727912285B245400161BE3 /* MutipleNavigationDestination.swift */,
@@ -164,6 +175,26 @@
 				D372793B285C777000161BE3 /* TogglingArrayView.swift */,
 			);
 			path = TogglingArray;
+			sourceTree = "<group>";
+		};
+		D39EA4212863162000899268 /* GlobalNavigationWithRoute */ = {
+			isa = PBXGroup;
+			children = (
+				D39EA42628631CF800899268 /* Models */,
+				D39EA42428631CDE00899268 /* MovieListScreen.swift */,
+				D39EA42D28631D5900899268 /* ReviewListScreen.swift */,
+				D39EA42B28631D3B00899268 /* MovieDetailScreen.swift */,
+			);
+			path = GlobalNavigationWithRoute;
+			sourceTree = "<group>";
+		};
+		D39EA42628631CF800899268 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D39EA42728631D0A00899268 /* Movie.swift */,
+				D39EA42928631D1B00899268 /* Review.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D3B8A41A28531F6400C5A88C = {
@@ -389,6 +420,7 @@
 				D3B8A4502853379700C5A88C /* SwitchLayoutView.swift in Sources */,
 				D372792B285C6E2D00161BE3 /* RequestingAppReviewView.swift in Sources */,
 				D3727919285B5C6600161BE3 /* SecondGridLayoutView.swift in Sources */,
+				D39EA42E28631D5900899268 /* ReviewListScreen.swift in Sources */,
 				D3C762EB2857174F0064F02A /* BackgroundTaskView.swift in Sources */,
 				D3B8A4412853279400C5A88C /* ShareLinksView.swift in Sources */,
 				D3727926285C6BCB00161BE3 /* DeviceOrientationAnyLayoutView.swift in Sources */,
@@ -398,6 +430,8 @@
 				D372791B285B5E5800161BE3 /* ThirdGridLayoutView.swift in Sources */,
 				D3C762E628570F3E0064F02A /* VariableSFSymbolsView.swift in Sources */,
 				D3727939285C766000161BE3 /* BoldAndItalicAnimationView.swift in Sources */,
+				D39EA42528631CDE00899268 /* MovieListScreen.swift in Sources */,
+				D39EA42A28631D1B00899268 /* Review.swift in Sources */,
 				D372790F285B21BC00161BE3 /* NavigationStackView.swift in Sources */,
 				D372792E285C6EFB00161BE3 /* DismissKeyBoardView.swift in Sources */,
 				D3B8A44D2853358600C5A88C /* ViewThatFitsView.swift in Sources */,
@@ -405,7 +439,9 @@
 				D3B8A44A2853345D00C5A88C /* MultiDatePickerView.swift in Sources */,
 				D3B8A4442853293F00C5A88C /* GaugesView.swift in Sources */,
 				D3727920285B617200161BE3 /* TapGestureLocationView.swift in Sources */,
+				D39EA42828631D0A00899268 /* Movie.swift in Sources */,
 				D3727933285C723A00161BE3 /* TextAnimationView.swift in Sources */,
+				D39EA42C28631D3B00899268 /* MovieDetailScreen.swift in Sources */,
 				D3B8A4382853203D00C5A88C /* BarChatView.swift in Sources */,
 				D3727913285B245400161BE3 /* MutipleNavigationDestination.swift in Sources */,
 				D3B8A44728532DD000C5A88C /* CustomGridLayoutView.swift in Sources */,

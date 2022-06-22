@@ -10,17 +10,24 @@ import SwiftUI
 @main
 struct SwiftUIiOS16FeatureApp: App {
     var body: some Scene {
+        
         WindowGroup {
-            TogglingArrayView()
-        }
-        .backgroundTask(.appRefresh("StormyNoon")) {
-            scheduleAppRefresh()
-            if await isStormy() {
-                await notifyForPhoto()
+            NavigationStack {
+                MovieListScreen()
             }
         }
-        .backgroundTask(.urlSession("isStormy")) {
-            
-        }
+        
+        //        WindowGroup {
+        //            MovieListScreen()
+        //        }
+        //        .backgroundTask(.appRefresh("StormyNoon")) {
+        //            scheduleAppRefresh()
+        //            if await isStormy() {
+        //                await notifyForPhoto()
+        //            }
+        //        }
+        //        .backgroundTask(.urlSession("isStormy")) {
+        //
+        //        }
     }
 }
